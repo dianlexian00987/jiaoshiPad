@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/ic_pop_window_item"
+    android:id="@+id/ll_PopHeadView"
+    >
+
+    <ImageView
+        android:id="@+id/iv_guan_kong_head"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_float_bg"
+        android:layout_marginTop="20dp"
+        />
+    <LinearLayout
+        android:id="@+id/ll_guan_kong_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_suo_ping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="锁屏"
+            android:textSize="16dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/color_afff"
+            />
+
+        <TextView
+            android:id="@+id/tv_ji_ping"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="解屏"
+            android:textSize="16dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/color_afff"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开启广播"
+            android:textSize="16dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/color_afff"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭广播"
+            android:textSize="16dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/color_afff"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关机"
+            android:textSize="16dp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/color_afff"
+            android:layout_marginBottom="30dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
